@@ -29,7 +29,7 @@ contract wordmint is ERC1155SignatureMint, PermissionsEnumerable {
         _setupRole(DEFAULT_ADMIN_ROLE, msg.sender);
     }
 
-
+//Mint function with public override
     function mintTo(
         address _to,
         uint256 _tokenId,
